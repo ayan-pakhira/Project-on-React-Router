@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Header from './components/Header/Header.jsx'
+import Home from './components/Home/Home.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 
 function App() {
@@ -6,9 +9,7 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold text-center">
-      Hello world!
-    </h1>
+      
     </>
   )
 }
